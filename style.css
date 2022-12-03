@@ -21,6 +21,7 @@ button {
 
 .nav-bar .list {
   display: flex;
+  gap: 50px;
 }
 
 .nav-bar ul {
@@ -32,6 +33,15 @@ button {
 .nav-bar .nav-left-button button {
   padding: 10px 20px;
   font-weight: 700;
+}
+
+.nav-bar .list a{
+  text-decoration: inherit;
+  color: #b9b7b4;
+}
+
+.nav-bar .list a:hover{
+  text-decoration: underline;
 }
 
 .hero {
@@ -48,13 +58,13 @@ button {
 }
 
 .hero .hero-content h1 {
-  width: 70%;
+  width: 69%;
   font-size: 71px;
 }
 
 .hero .hero-content p {
   margin: auto;
-    width: 30%;
+    width: 28%;
     color: #b9b7b4;
 }
 
